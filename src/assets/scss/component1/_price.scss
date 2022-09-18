@@ -41,6 +41,7 @@
     max-width: 257px;
     width: 100%;
     margin-bottom: 10px;
+    
   }
   &__content {
     display: flex;
@@ -64,4 +65,10 @@ margin-left: 10px;
 font-size: 12px;
 line-height: 125.5%;
   }
+}
+
+.price__tel:focus{
+  outline: none !important;
+  background:#fff!important;
+  border:1px solid #7647D9 !important;
 }

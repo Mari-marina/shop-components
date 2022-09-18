@@ -34,8 +34,11 @@
                     <h2 class="window__sum-price">70 765 ₽</h2>
                 </div>
                 <p class="window__text2">Введите номер вашего телефона</p>
-                <input class="price__tel window__tel" type="tel" id="phone" placeholder="+7 999 999 99 99">
-                <div class="window__checkbox">
+                <div class="wrapper">
+                    <input type="tel" name="phone" class="js-phoneMask price__tel window__tel" autocomplete="off" required placeholder="+7 999 999 99 99">
+                </div>
+                <div class="window__content_bottom">
+                <div class="window__checkbox">          
                     <input type="checkbox" id="cb1"> <label class="price__text" for="cb1">Согласен на обработку <a
                             class="price__link" href="#">персональных данных.</a></label>
                 </div>
@@ -43,16 +46,16 @@
                     <button class="price__button">ОФОРМИТЬ ЗАКАЗ</button>
 
                     <p class="window__text3">или позвоните по номеру:</p>
-                    <a class="window__link" href="tel:+74995003803">+7 (499) 500-38-03</a>
+                    <a class="window__link" id="phone" href="tel:+74995003803">+7 (499) 500-38-03</a>
                     <p class="window__text4">Ежедневно, с 10:00 до 19:00</p>
 
                     <button class="price__button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
                 </div>
             </div>
+            </div>
     </section>
-
-
     <script src="assets/js/script.js"></script>
+   
 </body>
 
 </html>
