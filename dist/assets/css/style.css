@@ -552,6 +552,13 @@ input[type="radio"]:checked + label:after {
     max-width: 146px;
     width: 100%;
     margin-left: 10px;
+    background: #7647D9;
+    border: none;
+    color: #ffffff;
+}
+
+.price__btn:hover {
+    background: #8258dc;
 }
 
 .price__from {
@@ -561,6 +568,16 @@ input[type="radio"]:checked + label:after {
     flex-direction: column;
     max-width: 305px;
     width: 100%;
+}
+
+.price__button:first-child {
+    background: #7647D9;
+    border: none;
+    color: #ffffff;
+}
+
+.price__button:first-child:hover {
+    background: #8258dc;
 }
 
 .price__tel, .price__button {
@@ -706,13 +723,14 @@ input[type="radio"]:checked + label:after {
 }
 
 .window__img {
+    cursor: pointer;
     width: 16px;
     margin-left: 184px;
 }
 
 @media all and (min-width: 830px) {
     .window__img {
-        margin-left: 143px;
+        margin-left: 138px;
     }
 }
 
@@ -782,6 +800,7 @@ input[type="radio"]:checked + label:after {
 }
 
 .window__wrap1 {
+    width: 268px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
@@ -795,6 +814,7 @@ input[type="radio"]:checked + label:after {
     .window__wrap1 {
         border-bottom: solid 1px  #ECECEC;
         padding-bottom: 6px;
+        width: 268px;
     }
 }
 
@@ -804,10 +824,11 @@ input[type="radio"]:checked + label:after {
     line-height: 150%;
     color: #666666;
     font-family: "Montserrat-Bold";
-    margin-right: 26px;
+    margin-right: 14px;
 }
 
 .window__sum-price {
+    font-family: Montserrat-Bold;
     font-weight: 700;
 }
 
@@ -833,6 +854,7 @@ input[type="radio"]:checked + label:after {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
+    width: 250px;
 }
 
 .window__checkbox {

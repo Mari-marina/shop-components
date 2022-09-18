@@ -13,21 +13,27 @@
     <section class="window">
 
         <div class="window__wrap">
-
-            <div class="window__block">
-                <img class="window__images" src="./assets/images/phone.jpg" alt="">
-                <div class="window__wrapper">
-                    <img class="window__img-cross" src="./assets/images/cross.svg" alt="">
-                    <img class="window__img" src="./assets/images/cross.svg" alt="">
-                    <h3 class="window__subtitle">iPhone 13 Pro 128Gb </h3>
-                    <p class="window__text">Alpine green</p>
-                    <div class="window__block2">
-                        <h3 class="window__price">70 765 ₽</h3>
-                        <p class="window__price__text">X</p>
-                        <p class="window__price__text">1</p>
+            <div class="window__wrap-block">
+                <img class="window__img-cross" src="./assets/images/cross.svg" alt="">
+                <div class="window__block">
+                    <a href="" class="window__link"><img class="window__images" src="./assets/images/phone.jpg"
+                            alt=""></a>
+                    <div class="window__wrapper">
+                        <a class="window__link" href="#"><img class="window__img" src="./assets/images/cross.svg"
+                                alt=""></a>
+                        <a class="window__link" href="#">
+                            <h3 class="window__subtitle">iPhone 13 Pro 128Gb </h3>
+                            <p class="window__text">Alpine green</p>
+                        </a>
+                        <div class="window__block2">
+                            <h3 class="window__price">70 765 ₽</h3>
+                            <p class="window__price__text">X</p>
+                            <p class="window__price__text">1</p>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="window__wrap_bottom">
                 <div class="window__wrap1">
                     <p class="window__sum">Сумма заказа</p>
@@ -35,25 +41,26 @@
                 </div>
                 <p class="window__text2">Введите номер вашего телефона</p>
                 <div class="wrapper">
-                    <input type="tel" name="phone" class="js-phoneMask price__tel window__tel" autocomplete="off" required placeholder="+7 999 999 99 99">
+                    <input type="tel" name="phone" class="js-phoneMask price__tel window__tel" autocomplete="off"
+                        required placeholder="+7 999 999 99 99">
                 </div>
                 <div class="window__content_bottom">
-                <div class="window__checkbox">          
-                    <input type="checkbox" id="cb1"> <label class="price__text" for="cb1">Согласен на обработку <a
-                            class="price__link" href="#">персональных данных.</a></label>
+                    <div class="window__checkbox">
+                        <input type="checkbox" id="cb1"> <label class="price__text" for="cb1">Согласен на обработку <a
+                                class="price__link" href="#">персональных данных.</a></label>
+                    </div>
+                    <div class="window__btn-wrap">
+                        <button class="price__button">ОФОРМИТЬ ЗАКАЗ</button>
+                        <p class="window__text3">или позвоните по номеру:</p>
+                        <a class="window__link" id="phone" href="tel:+74995003803">+7 (499) 500-38-03</a>
+                        <p class="window__text4">Ежедневно, с 10:00 до 19:00</p>
+                        <button class="price__button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+                    </div>
                 </div>
-                <div class="window__btn-wrap">
-                    <button class="price__button">ОФОРМИТЬ ЗАКАЗ</button>
-                    <p class="window__text3">или позвоните по номеру:</p>
-                    <a class="window__link" id="phone" href="tel:+74995003803">+7 (499) 500-38-03</a>
-                    <p class="window__text4">Ежедневно, с 10:00 до 19:00</p>
-                    <button class="price__button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
-                </div>
-            </div>
             </div>
     </section>
     <script src="assets/js/script.js"></script>
-   
+
 </body>
 
 </html>
