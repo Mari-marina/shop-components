@@ -1,0 +1,85 @@
+.pop-up {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 344px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    @media all and (min-width: 830px) {
+      max-width: 460px;
+    }
+}
+  &__img {
+    max-width: 160px;
+    width: 100%;
+    margin-bottom: 25px;
+    @media all and (min-width: 830px) {
+      margin-right: 30px;
+    }
+  }
+  &__cross {
+    margin: 6px 0 0 296px;
+    cursor: pointer;
+    @media all and (min-width: 830px) {
+      margin: 6px 0 0 418px;
+    }
+  }
+  &__text {
+    color: #727272;
+    font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+margin-right: 10px;
+  }
+  &__price {
+    font-size: 26px;
+    font-family: "Montserrat-Bold";
+  }
+  &__block {
+    margin-top: 25px;
+    display: flex;
+    @media all and (min-width: 830px) {
+      margin-top: 70px;
+    }
+  }
+  &__wrap {
+    @media all and (min-width: 830px) {
+      margin-top: 20px;
+    }
+  }
+  &__button_first {
+    margin: 55px 0 17px;
+    @media all and (min-width: 830px) {
+      margin: 52px 0 17px;
+    }
+  }
+  &__button_second {
+    @media all and (min-width: 830px) {
+      margin-bottom: 52px;
+    }
+  }
+  &__block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 27px;
+  }
+  &__content {
+    @media all and (min-width: 830px) {
+      display: flex;
+    }
+  }
+}
+input[type="checkbox"]:checked, 
+input[type="checkbox"]:not(:checked), 
+input[type="radio"]:checked, 
+input[type="radio"]:not(:checked) 
+{
+    position: absolute;
+    left: -9999px;
+}
